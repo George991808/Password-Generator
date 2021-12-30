@@ -3,7 +3,7 @@ var password = document.querySelector(".password");
 
 var characters="";
 var size;
-var IntermediatePassword
+var IntermediatePassword ="";
 function generatePassword(event) {
   event.stopPropagation();
   characters=""
