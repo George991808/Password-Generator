@@ -1,0 +1,39 @@
+* {
+    font-family: "Gill Sans", sans-serif;
+}
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    display:flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.title1 {
+    width: 100%;
+}
+.password {
+    width: 100%;
+    
+    text-align: center;
+    margin: 20px;
+}
+.button {
+    width: 100%;
+   
+    align-items: center;
+}
+
+.generatebutton {
+    
+    POSITION: ABSOLUTE;
+    LEFT: 50%;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    align-items: center;
+}
